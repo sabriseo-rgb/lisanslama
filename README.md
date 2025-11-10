@@ -4,6 +4,8 @@ Bu depo, foto albüm istemcileri için lisans doğrulaması yapan PHP tabanlı b
 
 ## Kurulum
 
+1. `admin/inc/config.local.php` dosyasını oluşturun ve gerçek ortam değerlerinizi bu dosyada tanımlayın. Örnek olarak `admin/inc/config.php.example.php` içindeki sabitlerden yararlanabilirsiniz.
+   - Alternatif olarak ortam değişkenleri (`DB_HOST`, `DB_USER`, `DB_PASS`, `DB_NAME`, `DB_PORT`, `SECRET_KEY`, `BASE_URL`) ile yapılandırma sağlayabilirsiniz.
 1. `admin/inc/config.php.example.php` dosyasını güvenli bir konuma kopyalayın ve `config.php` olarak yeniden adlandırın. Veritabanı ve gizli anahtar bilgilerini güncelleyin.
 2. `init_db.sql` betiğini çalıştırarak gerekli tabloları oluşturun.
 3. Web sunucunuzu proje kök dizinine işaret edecek şekilde yapılandırın.
