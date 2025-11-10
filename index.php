@@ -1,6 +1,6 @@
 <?php
 /**
- * Foto Albüm Lisans Sistemi - Ana Sayfa (https://license.dugunalbum.com)
+ * Foto Albüm Lisans Sistemi - Ana Sayfa
  * Dinamik olarak admin/inc/config.php dosyasını bulur.
  */
 
@@ -20,11 +20,11 @@ foreach ($paths as $p) {
 }
 
 if (!$configFound) {
-    echo "<!DOCTYPE html><html lang='tr'><head><meta charset='UTF-8'><title>Hata</title></head>
-    <body style='background:#0f172a;color:#f8fafc;font-family:sans-serif;text-align:center;margin-top:10%;'>
-    <h2>⚠️ Yapılandırma bulunamadı</h2>
-    <p><code>admin/inc/config.php</code> dosyası eksik veya yanlış dizinde.</p>
-    </body></html>";
+    echo "<!DOCTYPE html><html lang='tr'><head><meta charset='UTF-8'><title>Hata</title></head>" .
+         "<body style='background:#0f172a;color:#f8fafc;font-family:sans-serif;text-align:center;margin-top:10%;'>" .
+         "<h2>⚠️ Yapılandırma bulunamadı</h2>" .
+         "<p><code>admin/inc/config.php</code> dosyası eksik veya yanlış dizinde.</p>" .
+         "</body></html>";
     exit;
 }
 ?>
@@ -67,7 +67,7 @@ if (!$configFound) {
             Bu sistem <b>Foto Albüm Uygulaması</b> için lisans yönetimi sağlar.<br>
             Python tabanlı istemciler <code>license_check.php</code> üzerinden lisans doğrulaması yapar.
         </p>
-        <a href="https://license.dugunalbum.com/admin/login.php" class="btn btn-custom px-4 py-2">
+        <a href="admin/login.php" class="btn btn-custom px-4 py-2">
             🔐 Yönetici Girişi
         </a>
     </div>
