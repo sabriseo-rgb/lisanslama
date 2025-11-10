@@ -1,10 +1,12 @@
 <?php
-// Güvenlik: bu dosyayı web kökü dışına taşı ve config.php olarak yeniden adlandır.
-define('BASE_URL', 'https://license.dugunalbum.com');
-define('SECRET_KEY', '3d4a6f5f0d41b712c0de4baf2d98a3cc7f62a1e3243a8a7f71bba91c83cde95e');
+// Bu dosyayı güvenli bir konuma taşıyın ve `config.php` olarak yeniden adlandırın.
+// Gerçek üretim bilgilerinizi burada saklamayın; örnek değerleri değiştirin.
 
-$DB_HOST = 'localhost';
-$DB_PORT = 3306;
-$DB_NAME = 'dugunalbumcm_album_license_db';
-$DB_USER = 'dugunalbumcm_sbrihtci';
-$DB_PASS = '1098564Sbr!';
+define('BASE_URL', 'https://license.example.com');
+define('SECRET_KEY', 'değiştirmeniz_gereken_uzun_ve_rastgele_bir_anahtar');
+
+define('DB_HOST', '127.0.0.1');
+define('DB_PORT', 3306);
+define('DB_NAME', 'album_license_db');
+define('DB_USER', 'album_license_user');
+define('DB_PASS', 'güçlü_bir_parola');

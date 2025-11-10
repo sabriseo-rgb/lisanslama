@@ -24,6 +24,8 @@ CREATE TABLE license_activations (
   machine_id VARCHAR(128),
   ip VARCHAR(45),
   activated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uniq_license_machine (license_id, machine_id),
+  INDEX idx_license_id (license_id),
   FOREIGN KEY (license_id) REFERENCES license_keys(id) ON DELETE CASCADE
 );
 
