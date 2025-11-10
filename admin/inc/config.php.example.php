@@ -1,5 +1,6 @@
 <?php
 // Bu dosyayı `admin/inc/config.local.php` adıyla kopyalayarak özelleştirin.
+// Bu dosyayı güvenli bir konuma taşıyın ve `config.php` olarak yeniden adlandırın.
 // Gerçek üretim bilgilerinizi burada saklamayın; örnek değerleri değiştirin.
 
 define('BASE_URL', 'https://license.example.com');
