@@ -45,10 +45,10 @@ if (!$defaultBase) {
 }
 
 define('BASE_URL', rtrim($defaultBase, '/'));
-define('SECRET_KEY', $env('SECRET_KEY', 'change_me_secret_key'));
+define('SECRET_KEY', $env('SECRET_KEY', '3d4a6f5f0d41b712c0de4baf2d98a3cc7f62a1e3243a8a7f71bba91c83cde95e'));
 
-define('DB_HOST', $env('DB_HOST', '127.0.0.1'));
+define('DB_HOST', $env('DB_HOST', 'localhost'));
 define('DB_PORT', (int) $env('DB_PORT', 3306));
-define('DB_NAME', $env('DB_NAME', 'album_license_db'));
-define('DB_USER', $env('DB_USER', 'album_license_user'));
-define('DB_PASS', $env('DB_PASS', 'album_license_pass'));
+define('DB_NAME', $env('DB_NAME', 'dugunalbumcm_album_license_db'));
+define('DB_USER', $env('DB_USER', 'root'));
+define('DB_PASS', $env('DB_PASS', ''));

@@ -1,0 +1,12 @@
+{
+  "version": "v4.6",
+  "download_url": "https://dugunalbum.com/downloads/AlbumApp_v4.6.exe",
+  "notes": [
+    "🔹 PDF oluşturucu performansı artırıldı (yaklaşık %40 daha hızlı).",
+    "🔹 Küçük albüm oluşturma mantığı geliştirildi: numarasız sayfalar tek klasörde toplanıyor.",
+    "🔹 Klasör izleme (watchdog) kararlılığı artırıldı, bazı dizinlerin algılanmama sorunu giderildi.",
+    "🔹 GUI üzerindeki durum mesajları sadeleştirildi ve renk kodlaması iyileştirildi.",
+    "🔹 Güncelleme sistemi, versiyon karşılaştırma ve bildirim yapısını optimize etti.",
+    "🔹 Arayüz penceresi her zaman üstte olacak şekilde sabitlendi."
+  ]
+}

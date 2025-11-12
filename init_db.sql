@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS dugunalbumcm_album_license_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE dugunalbumcm_album_license_db;
+CREATE DATABASE IF NOT EXISTS dugunalbumcm_license_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE dugunalbumcm_license_db;
 
 CREATE TABLE admins (
   id INT AUTO_INCREMENT PRIMARY KEY,
